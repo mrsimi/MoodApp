@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoodApp.MainPage">
+
+    <StackLayout>
+        <Label Text="How do you feel?" HorizontalOptions="Center"  Margin="10"/>
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Button x:Name="SadBtn" Grid.Row="0" BackgroundColor="Black" ClassId="Sad"
+                    TextColor="White" Text="Sad" Clicked="SadBtn_Clicked"/>
+            <Button x:Name="FrustratedBtn" Grid.Row="1" BackgroundColor="PaleVioletRed" 
+                    Text="frustrated" Clicked="FrustratedBtn_Clicked" ClassId="Frustrated"/>
+            <Button Grid.Row="2" BackgroundColor="Gray" Text="Bored" 
+                    x:Name="BoredBtn" ClassId="Bored" Clicked="BoredBtn_Clicked"/>
+            <Button Grid.Row="3" BackgroundColor="OrangeRed" Text="angry" ClassId="Angry" x:Name="AngryBtn"
+                    Clicked="AngryBtn_Clicked"/>
+            <Button Grid.Row="4" BackgroundColor="Yellow" Text="happy" ClassId="Happy" x:Name="HappyBtn"
+                    Clicked="HappyBtn_Clicked"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

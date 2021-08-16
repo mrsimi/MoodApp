@@ -1,0 +1,30 @@
+{
+  "moods": [
+    {
+      "mood": "sad",
+      "title": "Be happy again",
+      "message": "Our sweetest songs are those that tell of saddest thought.",
+      "extras": "Percy Bysshe Shelley"
+    },
+    {
+      "mood": "frustrated",
+      "title": "Could be essential",
+      "message": "Frustration, although quite painful at times, is a very positive and essential part of success."
+    },
+    {
+      "mood": "bored",
+      "title": "be curious",
+      "message": "The cure for boredom is curiosity"
+    },
+    {
+      "mood": "angry",
+      "title": "Count to 10",
+      "message": "When angry count to ten before you speak. If very angry, count to one hundred."
+    },
+    {
+      "mood": "happy",
+      "title": "Be happy now",
+      "message": "Be happy for this moment. This moment is your life"
+    }
+  ]
+}
